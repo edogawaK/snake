@@ -1,0 +1,41 @@
+canvas{
+    border: 1px solid;
+    display: block;
+}
+.game{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    font-size:small;
+}
+.game__info>div{
+    margin: 10px 0;
+}
+.game__info{
+    padding: 10px;
+}
+
+.game__time{
+}
+
+.game__food{
+}
+
+.game__title{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.game__description{
+}
+
+.game__button{
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
